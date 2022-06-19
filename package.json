@@ -1,0 +1,20 @@
+{
+  "name": "framework-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/style.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilMalinowski/framework-css.git"
+  },
+  "author": "Kamil Malinowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilMalinowski/framework-css/issues"
+  },
+  "homepage": "https://github.com/kamilMalinowski/framework-css#readme"
+}
