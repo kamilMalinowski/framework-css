@@ -1,0 +1,58 @@
+:root {
+  // header: background-color, padding, border-bottom, position
+  // background-color
+  --bg-: #f5f5f5;
+  --bg-1: #3f3f3f;
+  --bg-2: #3e7b7a;
+  --bg-3: #9ba2c8;
+  --bg-4: #f1b8de;
+
+  // padding
+  --pd-: 10px;
+  --pd-1: 12px;
+  --pd-2: 15px;
+  --pd-3: 18px;
+  --pd-4: 20px;
+
+  // border-bottom
+  --bb-: 4px solid var(--bg-4);
+  --bb-1: 4px solid var(--bg-3);
+  --bb-2: 4px solid var(--bg-2);
+  --bb-3: 4px solid var(--bg-1);
+  --bb-4: 4px solid var(--bg-);
+
+  // position
+  --ps-: relative;
+  --ps-1: absolute;
+  --ps-2: static;
+  --ps-3: sticky;
+  --ps-4: fixed;
+
+  // header > div: display, justify-content, align-items, flex-direction
+  // display
+  --ds-: flex;
+  --ds-1: grid;
+  --ds-2: block;
+  --ds-3: inline-block;
+  --ds-4: none;
+
+  // justify-content
+  --jc-: space-between;
+  --jc-1: space-around;
+  --jc-2: space-evenly;
+  --jc-3: center;
+  --jc-4: flex-start;
+  --jc-5: flex-end;
+
+  // align-items
+  --ai-: center;
+  --ai-1: stretch;
+  --ai-2: start;
+  --ai-3: end;
+
+  // align-items
+  --fd-: row;
+  --fd-1: row-reverse;
+  --fd-2: column;
+  --fd-3: column-reverse;
+}
